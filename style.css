@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+}
+
+.wrapper {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 177, 59);
+    padding: 50px;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    text-align: center;
+}
+
+.wrapper h2 {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+input[type="number"] {
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: coral;
+    border: none;
+    color: white;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+h1#resultArea {
+    color: white;
+}
